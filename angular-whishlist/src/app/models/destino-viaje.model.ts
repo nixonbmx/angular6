@@ -5,6 +5,6 @@ export class destinoviaje {
         return this.selected;
     }
     setSelected(s: boolean) {
-        this.selected = true;
+        this.selected = s;
     }
 }

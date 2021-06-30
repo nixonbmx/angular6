@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, HostBinding, EventEmitter, Output , } from '@angular/core';
+import { Component, OnInit, Input, HostBinding,   EventEmitter, Output } from '@angular/core';
 import { destinoviaje } from '../models/destino-viaje.model';
 
 @Component({

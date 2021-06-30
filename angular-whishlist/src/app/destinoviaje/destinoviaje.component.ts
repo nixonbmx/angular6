@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { destinoviaje } from '../models/destino-viaje.model';
 
 @Component({
   selector: 'app-destinoviaje',
@@ -6,12 +7,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./destinoviaje.component.css']
 })
 export class DestinoviajeComponent implements OnInit {
- @Input() nombre: string;
-  constructor() {
-    this.nombre ="";
-  }
+ @Input() destino: destinoviaje;
+  constructor() {}
 
   ngOnInit(): void {
+   
   }
 
 }
